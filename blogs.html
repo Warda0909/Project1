@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua.V - Fashion Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .nav-link a :hover{
+    color:rgb(245, 164, 177);
+    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            line-height: 1.8;
+        }
+        .header {
+            background: url('https://i.imgur.com/1FD2d8B.png') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 3rem;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+        }
+        .blog-post {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+        .blog-post img {
+            width: 45%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .blog-content {
+            width: 50%;
+            padding: 15px;
+            text-align: justify;
+        }
+        .blog-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        @media (max-width: 768px) {
+            .blog-post {
+                flex-direction: column;
+                text-align: center;
+            }
+            .blog-post img, .blog-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+      <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg fixed top bg-body-tertiary">
+    <div class="container-fluid" style=" background-color: rgb(19, 18, 18); height:80px;">
+    <a class="navbar-brand" href="#" style="color: white; font-family: cursive; font-size:30px;">JOSHUA.V</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" class="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+    <a class="nav-link active " aria-current="page" href="home.html" style="color:rgb(245, 164, 177);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="aboutus.html" style="color: white;">ABOUT </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active " href="services.html" style="color:white;">SERVICES</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " href="page.html" style="color: white;">PAGE</a>
+    </li>
+    <li class="nav-item ">
+    <a class="nav-link active " href="blogs.html" style="color: white;">BLOGS</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active " href="features.html" style="color: white;">FEATURES</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link active " href="contactus.html" style="color: white;">CONTACTS</a>
+      </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+                    <!-- NAVBAR END -->
+   
+    <div class="header"></div>
+    <div class="container">
+        <div class="blog-post">
+            <img src="blue.jpeg" alt="Casual Everyday Style">
+            <div class="blog-content">
+                <div class="blog-title">Casual Everyday Style</div>
+                <p>Casual style combines comfort and style with jeans, tees, and athleisure. It’s perfect for everyday wear, looking effortless but put together.</p>
+                <p>With comfortable sneakers and casual accessories, it fits almost any situation, making it an easy go-to look.</p>
+            </div>
+        </div>
+        <div class="blog-post" style="flex-direction: row-reverse;">
+            <img src="vblack.jpeg" alt="Elegant Evening Wear">
+            <div class="blog-content">
+                <div class="blog-title">Elegant Evening Wear</div>
+                <p>Elegant evening wear combines satin, velvet, and tailored suits for a timeless look. Whether it’s a gown or tuxedo, the goal is sophistication.</p>
+                <p>Bold colors, metallic finishes, and accessories like jewelry and heels complete the formal look.</p>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="red.jpeg" alt="Power Dressing">
+            <div class="blog-content">
+                <div class="blog-title">Power Dressing</div>
+                <p>Power dressing features sharp tailoring with blazers, structured pants, and pencil skirts. It projects professionalism and confidence.</p>
+                <p>Monochrome looks and polished accessories like handbags and pumps complete the empowered style.</p>
+            </div>
+        </div>
+        <div class="blog-post" style="flex-direction: row-reverse;">
+            <img src="white1.jpeg" alt="Bohemian Chic">
+            <div class="blog-content">
+                <div class="blog-title">Bohemian Chic</div>
+                <p>Bohemian chic embraces relaxed silhouettes, earthy tones, and vintage accessories. It’s all about comfort, creativity, and individuality.</p>
+                <p>The style features flowing fabrics and eclectic combinations, perfect for free spirits looking to express themselves.</p>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="black.jpeg" alt="Streetwear Trends">
+            <div class="blog-content">
+                <div class="blog-title">Streetwear Trends</div>
+                <p>Streetwear blends casual wear with high-end design. Originating from skate and hip-hop culture, it’s now a global style with oversized hoodies and trendy sneakers. It’s about self-expression, with bold graphics and athletic-inspired looks.</p>
+                <p>Collaborations like Supreme and Louis Vuitton have elevated it to luxury. Streetwear’s evolution now includes eco-friendly materials and a focus on sustainability.</p>
+            </div>
+        </div>
+        <div class="blog-post" style="flex-direction: row-reverse;">
+            <img src="brown.jpeg" alt="Vintage Revival">
+            <div class="blog-content">
+                <div class="blog-title">Vintage Revival</div>
+                <p>Vintage revival brings back fashion from earlier decades, like high-waisted trousers and polka-dot dresses, with a modern twist.</p>
+                <p>Bold accessories like cat-eye glasses and vintage handbags complete the retro look, blending past and present fashion.</p>
+                <p>This trend combines old-school charm with modern updates, encouraging creativity and individuality.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
