@@ -1,1 +1,2 @@
-# Project1
+# Project
+Korean Fashion Website (JOSHUA.V)
